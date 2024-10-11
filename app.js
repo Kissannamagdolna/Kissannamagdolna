@@ -5,7 +5,7 @@ function getRandomUser() {
     .then(response => response.json())
     .then(data => {
         const user = data.results[0];
-        document.getElementById('random-name').innerText = '${user.name.first} ${user.name.last}';
+        document.getElementById('random-name').innerText = `${user.name.first} ${user.name.last}`;
         document.getElementById('random-email').innerText = user.email;
     })
     .catch(error => {
