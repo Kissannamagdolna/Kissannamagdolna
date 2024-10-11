@@ -1,1 +1,1 @@
-# cv-web-bme
+# Kissannamagdolna
