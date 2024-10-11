@@ -1,0 +1,55 @@
+index.html 
+git config --global user.name "Kissannamagdolna" 
+git config --global user.mail "kiss.anna.magdolnaa@gmail.com" 
+cd /path/to/your/project 
+git init 
+echo "cv-web" >> README.md 
+git add README.md 
+git commit -m "README hozzáadása"
+git add .
+git commit -m "Első commit: index.html, style.css, app.js hozzáadása"
+git remote add origin https://github.com/Kissannamagdolna/cv-web-bme
+git push -u origin main 
+
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device=width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bemutatkozás</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+      <header> 
+        <h1 id="Kiss Anna Magdolna"></h1>
+        <p id="Ipari termék- és formatervezőmérnök hallgató">
+      </header>
+
+      <section class="cv-section">
+        <h2>Ekérhetőségek</h2>
+        <ul>
+            <li>Email: <span id="email">kiss.anna.magdolnaa@gmail.com</span><//li>
+            <li>Telefonszám: <span id="phone">+36 30 355 7039</span></li>
+        </ul>
+    </section>
+
+    <section class="cv-section">
+        <h2>Bemutatkozás</h2>
+        <p id="bio">itt majd rovid bem</p>
+    </section>
+
+    <section class="cv-section">
+        <h2>Véletlenszerű felhasználó (randomuser.me API)</h2>
+        <div id="random-user">
+            <p>Név: <span id="random-name"></span></p>
+            <p>Email: <span id="random-email"></span></p>
+        </div>
+        <button onclick="getRandomUser()">Véletlenszerű felhasználó lekérése</button>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>    

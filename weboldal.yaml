@@ -1,0 +1,28 @@
+git config --global user.name "Kissannamagdolna"
+git config --global user.mail "kiss.anna.magdolnaa@gmail.com"
+cd /path/to/your/project
+git init
+echo "cv-web" >> README.md 
+git add README.md 
+git commit -m "README hozzáadása"
+git add .
+git commit -m "Első commit: index.html, style.css, app.js hozzáadása"
+git remote add origin https://github.com/Kissannamagdolna/cv-web-bme
+git push -u origin main
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device=width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bemutatkozás</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+      <header> 
+        <h1 id="Kiss Anna Magdolna"></h1>
+        <p id="Ipari termék- és formatervezőmérnök hallgató">
+      </header>
+
+      
