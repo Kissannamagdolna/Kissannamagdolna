@@ -7,7 +7,7 @@ style.css
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #43210a;
     color: #333;
 }
 
@@ -16,7 +16,7 @@ body {
     max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
-    background-color: whitesmoke;
+    background-color: rgb(148, 125, 72);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
@@ -27,16 +27,52 @@ header {
 }
 
 h1 {
-    color: #2c3e50;
+    color: #6d3b03;
 }
 
 h2 {
-    color: #16a085;
+    color: #71420c;
     margin-bottom: 10px;
 }
+p {
+    color: aliceblue;
+}
 
+ul{
+    color: aliceblue;
+}
 .cv-section {
-    margin-bottom: 20px;
+    margin-bottom: 20px;/* Stílus a menühöz */
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #111;
+}
+
+/* Szekciók stílusai */
+section {
+    padding: 20px;
+    margin: 10px;
+}
+
 }
 
 ul {
@@ -50,7 +86,7 @@ li {
 
 button {
     padding: 10px 20px;
-    background-color: #16a085;
+    background-color: #6d3b03;
     color: whitesmoke;
     border: none;
     border-radius: 5px;
@@ -58,5 +94,35 @@ button {
 }
 
 button:hover {
-    background-color: #149174;
+    background-color: #7e7c7c;
+}
+/* Stílus a menühöz */
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #848287;
+    overflow: hidden;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: rgb(230, 219, 219);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #111;
+}
+
+/* Szekciók stílusai */
+section {
+    padding: 20px;
+    margin: 10px;
 }
